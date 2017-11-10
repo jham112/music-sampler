@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: Rambla, Calibri, sans-serif;
+  margin: 30px;
+}
+
+h1 {
+  font-family: 'Julius Sans One', Calibri, sans-serif;
+}
+
+#container {
+  margin: 10px;
+  padding: 3px;
+  font-size: 125%;
+}
+
+audio {
+  margin: 10px;
+}
+
+.albumCover {
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+#text {
+  font-size: 120%;
+  padding: 2px;
+  margin: 10px;
+  width: 75%;
+}
+
+@media (max-width: 768px) {
+    body {
+      width: 100%;
+      padding: 0;
+    }
+    img, audio {
+      width: 80%;
+      margin: 0;
+      margin-top: 2px;
+    }
+    #container {
+      font-size: 150%;
+      margin: 0;
+      padding: 0;
+    }
+    #text {
+      width: 80%;
+    }
+    #imgSRC {
+      width: 80%;
+      font-size: 80%;
+    }
+    footer {
+      width: 80%;
+    }
+}
